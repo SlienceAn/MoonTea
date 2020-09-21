@@ -1,0 +1,370 @@
+*{
+
+/*	border:0.5px solid;*/
+
+}
+/*.nav_fixed{
+	position:fixed;
+	z-index: 999;
+	width: 100%;
+	margin-bottom: 10rem;
+}*/
+.row{
+	margin-right: 0px; 
+}
+.bg-dark{
+	height:auto;
+	position:fixed;
+	z-index: 999;
+	width: 100%;
+	margin-bottom: 10rem;
+
+}
+
+.navbar-nav,.navbar-brand{
+	margin-left:1rem;
+	margin-top:1rem;
+	margin-bottom:1rem; 
+}
+.nav-link:hover{
+	border-bottom: 1px solid white;
+}
+.carousel-item img{
+	width: 100%;
+	height:45rem;
+}
+
+.carousel-control-next-icon,.carousel-control-prev-icon{
+  width:700px;
+  height: 70px;
+
+}
+.carousel-indicators li{
+	width:30px;
+	height:30px;
+	border-radius: 50%;
+	border: 1px solid gray ;
+}
+
+.nonav{
+	padding: 0px;
+}
+/*.col-sm-4{
+	border: 2px solid;
+	margin:10px 10px 10px 10px;
+}*/
+.thumbnail img{
+	max-width: 100%;
+	height:300px;
+	border-top-right-radius:20px;
+	border-top-left-radius: 20px;
+		
+}
+.thumbnail{
+transition: 0.5s;
+	border: 1px solid gray;
+	border-radius:20px;
+	margin-bottom:2rem;
+/*-moz-box-shadow:4px 6px 20px #333333; -webkit-box-shadow:4px 6px 20px #333333; box-shadow:4px 6px 20px #333333;
+*/overflow: hidden;	
+}
+/*.thumbnail:hover{
+	transition:0.5s;
+border-radius: 50%;
+background-color:black;
+color: #fff; 
+}*/
+.thumbnail_text{
+	
+	margin-top:1rem;
+	font-size: 25px;
+	font-weight: bold; 
+}
+.cc {
+    max-width: 90%;
+}
+.brand::after{
+	content:"/";
+	color: #fff;
+	margin-left: 0.5rem;
+}
+
+
+.text_th,.text_th_about,.text_th_store{
+/*	margin-top: 1rem;
+	margin-bottom:1rem;*/
+	font-size:5rem;
+	text-align: center;
+	font-family: monospace;
+}
+.tab-pane{
+	width:95%;
+	font-weight: bold;
+	margin:0.5rem auto;
+	
+}
+.caption{
+ height: auto;
+ 
+}
+.cc_table{
+	max-width:100%;
+	height: auto;
+	background-image:url('../image/woodbg.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+}
+
+.table{
+	width:89%;
+	margin:2rem auto;
+	background-color:#fff;
+}
+.table_text{
+    margin:0 auto;  
+	font-size:5rem;
+	color: #fff;
+	text-shadow: black;
+
+}
+.col_bg_1{
+box-sizing: border-box;
+	background-image:url("../image/p1.jpg");
+	background-repeat: no-repeat;
+	background-size:100% 100%;   
+}
+.col_bg_2{
+	box-sizing: border-box;
+	background-image:url("../image/P3.jpg");
+	background-repeat: no-repeat;
+	background-size:100% 100%;
+	   
+}
+.col_bg_3{
+    box-sizing: border-box;
+	background-image:url("../image/juice.jpg");
+	background-repeat: no-repeat;
+	background-size:100% 100%;   
+}
+.col_bg_4{
+	box-sizing: border-box;
+	background-image:url("../image/p4.jpg");
+	background-repeat: no-repeat;
+	background-size:100% 100%;   
+}
+.col-md-3 img{
+	width: 100%;
+	height:100%;
+	
+}
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color:rgba(0,0,0,0.5);
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+}
+.col-md-3:hover .overlay{
+ -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+.PP{
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.PP_bod{
+	width: 80%;
+	height: 80%;
+	margin:2rem auto;
+	border: 1px solid white;
+	
+}
+.tab_bg{
+	max-width: 100%;
+	height: auto;
+	background-image:url('../image/woodbg.jpg');
+    background-size: 100%;
+    border: 1px solid rgba(0,0,0,0);
+
+}
+.tab_box{
+	max-width:90%;
+	margin:2rem auto; 
+	margin-bottom: 10rem;
+	height:auto;
+	padding:10px;
+	background-color:#fff; 
+    border-radius: 20px; 
+    -moz-box-shadow:4px 6px 20px #333333; -webkit-box-shadow:4px 6px 20px #333333; box-shadow:4px 6px 20px #333333;
+
+}
+.card{
+	     -moz-box-shadow:4px 6px 20px #333333; -webkit-box-shadow:4px 6px 20px #333333; box-shadow:4px 6px 20px #333333;
+         margin-bottom: 10rem;
+}
+.footer_bg{
+ background-image:url('../image/footerImg.png');
+ background-repeat: no-repeat;
+ background-size:100% 100%;
+
+}
+.footer_img{
+	text-align: center;
+	margin:5rem auto;
+	
+}
+.footer_img img{
+	margin-left:0.7rem; 
+}
+.footer_text{
+	margin:2rem auto;
+	text-align: left;
+}
+.btn-block{
+	height: 70px;
+}
+.ParallaxBox{
+height: 400px;
+}
+
+.ParallaxText{
+margin:0 auto;
+height: 400px;
+padding: 40px;
+font: 24px 'Arial';
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center center;
+background-size: cover;
+line-height: 28px;
+
+
+}
+.ParallaxSection{
+color: #fff;
+background-image:url('../image/parallax.jpg');
+
+}
+
+.FristCol,.SecondCol,.TableCol,.text_th,.ImgCol,.text_th_about,.AboutCol,.text_th_store{
+	opacity: 0;
+}
+.Cutscenes{
+	animation: cuts 2s;
+	opacity: 1;
+}
+
+@keyframes cuts{
+ from{
+	opacity:0;
+	transform: translateY(160px);
+ }
+ to{
+opacity: 1;
+ }
+
+}
+.ThreeText{
+ background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  font-size: 80px;
+  border: 10px solid #f1f1f1;
+  position: fixed; /* Stay fixed */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  /*width: 300px;*/
+  padding: 20px;
+  text-align: center;
+}
+.SecondText{
+  color: white;
+  font-weight: bold;
+  font-size:40px;
+  /*border: 10px solid #f1f1f1;*/
+  position: fixed; /* Stay fixed */
+  top: 30%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  /*width: 300px;*/
+  padding: 20px;
+  text-align: center;
+
+}
+.ImgCol{
+	height:20rem;
+}
+
+.ImgScale{
+animation: ImgAn 1s;
+opacity: 1;
+}
+.StoreInfo{
+	color: blue;
+	text-decoration: underline;
+}
+.StoreInfo:hover{
+	cursor: pointer;
+}
+@keyframes ImgAn{
+	0%{
+		opacity: 0;
+		transform: scale(0.1)rotate(0deg);
+		
+	}
+	100%{
+	
+		transform: scale(1) rotate(360deg);
+
+	}
+} 
+.text_th_about_an{
+	animation: abouttext 2s;
+	opacity: 1;
+}
+@keyframes abouttext{
+  from{
+  	opacity: 0;
+	transform: translateX(1160px);
+  }
+to{
+	opacity: 1;
+
+}
+
+}
+.About{
+animation: aboutCut 2s;
+opacity: 1;
+}
+@keyframes aboutCut{
+  from{
+  	opacity: 0;
+	transform: translateX(-1160px);
+  }
+to{
+	opacity: 1;
+}
+
+}
